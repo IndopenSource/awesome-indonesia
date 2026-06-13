@@ -2,6 +2,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![GitHub stars](https://img.shields.io/github/stars/indopensource/awesome-indonesia?style=social)](https://github.com/indopensource/awesome-indonesia)
+[![Markdown Lint](https://github.com/IndopenSource/awesome-indonesia/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/IndopenSource/awesome-indonesia/actions/workflows/markdown-lint.yml)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Made in Indonesia](https://img.shields.io/badge/made%20in-Indonesia-red.svg)](https://github.com/IndopenSource/awesome-indonesia)
 
 <meta name="description" content="Awesome Indonesia adalah katalog proyek open source Indonesia yang disusun berdasarkan jumlah stars GitHub untuk menilai popularitas komunitas.">
 <meta name="keywords" content="awesome indonesia, awesome-list indonesia, proyek open source indonesia, repository indonesia, komunitas open source indonesia">
