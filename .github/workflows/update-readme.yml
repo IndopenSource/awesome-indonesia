@@ -1,6 +1,12 @@
 name: Update README
 
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - "repos.json"
+      - "scripts/update-readme.py"
+      - ".github/workflows/update-readme.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 18 * * *"

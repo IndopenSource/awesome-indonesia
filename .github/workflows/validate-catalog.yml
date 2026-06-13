@@ -1,0 +1,39 @@
+name: Validate Catalog
+
+on:
+  pull_request:
+    paths:
+      - "repos.json"
+      - "scripts/update-readme.py"
+      - "scripts/validate-catalog.py"
+      - ".github/workflows/validate-catalog.yml"
+  push:
+    branches: [ main ]
+    paths:
+      - "repos.json"
+      - "scripts/update-readme.py"
+      - "scripts/validate-catalog.py"
+      - ".github/workflows/validate-catalog.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate repos.json
+        run: python scripts/validate-catalog.py
+      - name: Regenerate README
+        run: python scripts/update-readme.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run markdownlint
+        run: npx --yes markdownlint-cli --config .markdownlint.json README.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md

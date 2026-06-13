@@ -5,9 +5,9 @@ Repo ini mengikuti gaya Awesome List.
 ## Cara menambah proyek
 
 1. Tambahkan nama repo ke `repos.json` dengan format `owner/repo`.
-2. Jalankan `python scripts/update-readme.py`.
-3. Jalankan `npx --yes markdownlint-cli --config .markdownlint.json README.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md`.
-4. Buat pull request dengan ringkasan proyek yang ditambahkan.
+2. Jalankan `make validate` untuk memastikan format list benar.
+3. Buat pull request dengan ringkasan proyek yang ditambahkan.
+4. README akan diperbarui otomatis setelah PR digabungkan ke `main`.
 
 ## Standar kontribusi
 
@@ -15,7 +15,18 @@ Repo ini mengikuti gaya Awesome List.
 - Pastikan repo publik dan bisa diakses dari GitHub.
 - Pastikan repo bukan duplikasi dari entri yang sudah ada.
 - Jangan edit tabel README secara manual jika metadata bisa dihasilkan dari GitHub API.
-- Deskripsi, pembuat, bahasa, lisensi, stars, forks, issue, tanggal update, dan tags diambil otomatis dari GitHub API.
+- Deskripsi, pembuat, bahasa, lisensi, stars, forks, issue, tanggal update, latest release, dan tags diambil otomatis dari GitHub API.
+
+## Perintah lokal
+
+```bash
+make validate
+make update
+make lint
+make check
+```
+
+Gunakan `make update` hanya jika ingin melihat hasil README lokal sebelum membuat PR.
 
 ## Format repos.json
 
@@ -31,4 +42,5 @@ Repo ini mengikuti gaya Awesome List.
 - Gunakan nama owner dan repo yang valid.
 - Jika metadata di README terlihat kurang lengkap, update metadata di repo asalnya terlebih dahulu.
 - README diurutkan otomatis berdasarkan jumlah stars terbanyak.
-- Workflow `Update README` berjalan harian dan bisa dipicu manual dari tab Actions.
+- Latest release mengikuti data GitHub Releases. Jika repo belum punya release, kolom akan berisi `N/A`.
+- Workflow `Update README` berjalan harian, berjalan setelah perubahan `repos.json` di `main`, dan bisa dipicu manual dari tab Actions.

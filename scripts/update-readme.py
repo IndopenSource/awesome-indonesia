@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import urllib.error
 import urllib.request
 import re
 from datetime import date
@@ -11,7 +12,7 @@ REPOS_FILE = ROOT / "repos.json"
 README_FILE = ROOT / "README.md"
 
 
-def request_json(url):
+def request_json(url, allow_not_found=False):
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "awesome-indonesia-readme-generator",
@@ -22,8 +23,13 @@ def request_json(url):
         headers["Authorization"] = f"Bearer {token}"
 
     request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as error:
+        if allow_not_found and error.code == 404:
+            return None
+        raise
 
 
 def clean(value, fallback="N/A"):
@@ -39,9 +45,31 @@ def format_description(value):
     return text.replace("|", "\\|")
 
 
+def latest_release_metadata(full_name):
+    data = request_json(
+        f"https://api.github.com/repos/{full_name}/releases/latest",
+        allow_not_found=True,
+    )
+    if not data:
+        return {
+            "latest_release": "N/A",
+            "latest_release_url": "",
+            "latest_release_date": "N/A",
+        }
+
+    return {
+        "latest_release": clean(data.get("tag_name") or data.get("name")),
+        "latest_release_url": clean(data.get("html_url"), ""),
+        "latest_release_date": clean(
+            (data.get("published_at") or data.get("created_at") or "")[:10]
+        ),
+    }
+
+
 def repo_metadata(full_name):
     data = request_json(f"https://api.github.com/repos/{full_name}")
     license_data = data.get("license") or {}
+    release_data = latest_release_metadata(data["full_name"])
     return {
         "full_name": data["full_name"],
         "name": data["name"],
@@ -56,6 +84,7 @@ def repo_metadata(full_name):
         "updated_at": clean(data.get("pushed_at", "")[:10]),
         "license": clean(license_data.get("spdx_id")),
         "topics": data.get("topics") or [],
+        **release_data,
     }
 
 
@@ -73,6 +102,20 @@ def project_cell(item):
     description = format_description(item["description"])
     anchor = f'<a id="{project_anchor(item["full_name"])}"></a>'
     return f"{anchor}{repo_link}<br>{description}"
+
+
+def release_cell(item):
+    release = clean(item.get("latest_release"))
+    if release == "N/A":
+        return "N/A"
+
+    url = item.get("latest_release_url") or item["url"]
+    release_label = release.replace("|", "\\|")
+    release_link = f"[{release_label}]({url})"
+    release_date = clean(item.get("latest_release_date"))
+    if release_date == "N/A":
+        return release_link
+    return f"{release_link}<br>{release_date}"
 
 
 def project_anchor(full_name):
@@ -120,8 +163,8 @@ def build_readme(items):
         "",
         "## Daftar Proyek",
         "",
-        "| No | Project | Pembuat | Bahasa | Stars | Forks | Issue | Lisensi | Terakhir Update | Tags |",
-        "| - | - | - | - | - | - | - | - | - | - |",
+        "| No | Project | Pembuat | Bahasa | Stars | Forks | Issue | Lisensi | Terakhir Update | Latest Release | Tags |",
+        "| - | - | - | - | - | - | - | - | - | - | - |",
     ]
 
     for index, item in enumerate(items, 1):
@@ -129,7 +172,7 @@ def build_readme(items):
         rows.append(
             f"| {index} | {project_cell(item)} | {owner} | {item['language']} | "
             f"{item['stars']} | {item['forks']} | {item['open_issues']} | {item['license']} | "
-            f"{item['updated_at']} | {tags_for(item['topics'])} |"
+            f"{item['updated_at']} | {release_cell(item)} | {tags_for(item['topics'])} |"
         )
 
     rows.extend(

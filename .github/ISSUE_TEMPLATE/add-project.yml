@@ -1,0 +1,19 @@
+name: Tambah proyek
+description: Usulkan proyek open source Indonesia untuk masuk ke Awesome Indonesia.
+title: "Tambah proyek: owner/repo"
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Tulis dalam format owner/repo.
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Alasan
+      description: Jelaskan kenapa proyek ini relevan untuk ekosistem open source Indonesia.
+    validations:
+      required: true
