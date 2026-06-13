@@ -163,7 +163,7 @@ def build_readme(items):
         "",
         "## Daftar Proyek",
         "",
-        "| No | Project | Pembuat | Bahasa | Stars | Forks | Issue | Lisensi | Terakhir Update | Latest Release | Tags |",
+        "| No | Project | Pembuat | Bahasa | Stars | Forks | Issue | Lisensi | Terakhir Update | Tags | Latest Release |",
         "| - | - | - | - | - | - | - | - | - | - | - |",
     ]
 
@@ -172,7 +172,7 @@ def build_readme(items):
         rows.append(
             f"| {index} | {project_cell(item)} | {owner} | {item['language']} | "
             f"{item['stars']} | {item['forks']} | {item['open_issues']} | {item['license']} | "
-            f"{item['updated_at']} | {release_cell(item)} | {tags_for(item['topics'])} |"
+            f"{item['updated_at']} | {tags_for(item['topics'])} | {release_cell(item)} |"
         )
 
     rows.extend(
