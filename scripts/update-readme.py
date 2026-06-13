@@ -102,6 +102,8 @@ def build_readme(items):
         "- [Daftar Proyek](#daftar-proyek)",
         "- [Cara Berkontribusi](#cara-berkontribusi)",
         "- [Lisensi](#lisensi)",
+        "- [Kontributor](#kontributor)",
+        "- [Star History](#star-history)",
         "",
         "## Tentang Daftar",
         "",
@@ -140,6 +142,14 @@ def build_readme(items):
             "## Lisensi",
             "",
             "Dokumen dan struktur daftar ini menggunakan MIT License, sedangkan tiap proyek tetap mengikuti lisensi asli masing-masing repositori.",
+            "",
+            "## Kontributor",
+            "",
+            "[![Kontributor](https://contrib.rocks/image?repo=IndopenSource/awesome-indonesia)](https://github.com/IndopenSource/awesome-indonesia/graphs/contributors)",
+            "",
+            "## Star History",
+            "",
+            "[![Star History Chart](https://api.star-history.com/svg?repos=IndopenSource/awesome-indonesia&type=Date)](https://www.star-history.com/#IndopenSource/awesome-indonesia&Date)",
         ]
     )
     return "\n".join(rows)
