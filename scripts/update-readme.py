@@ -2,6 +2,7 @@
 import json
 import os
 import urllib.request
+import re
 from datetime import date
 from pathlib import Path
 
@@ -29,6 +30,13 @@ def clean(value, fallback="N/A"):
     if value is None or value == "":
         return fallback
     return str(value)
+
+
+def format_description(value):
+    text = clean(value)
+    text = re.sub(r"\bhttps?://[^\s\])>]+", lambda m: f"<{m.group(0)}>", text)
+    text = re.sub(r"\bwww\.[^\s\])>]+\.[^\s\])>]+", lambda m: f"<https://{m.group(0)}>", text)
+    return text.replace("|", "\\|")
 
 
 def repo_metadata(full_name):
@@ -62,7 +70,7 @@ def tags_for(topics):
 
 def project_cell(item):
     repo_link = f"[{item['name']}]({item['url']})"
-    description = item["description"].replace("|", "\\|")
+    description = format_description(item["description"])
     anchor = f'<a id="{project_anchor(item["full_name"])}"></a>'
     return f"{anchor}{repo_link}<br>{description}"
 
