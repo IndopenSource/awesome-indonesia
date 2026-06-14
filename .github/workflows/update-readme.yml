@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -26,8 +27,13 @@ jobs:
         run: python scripts/update-readme.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create README update pull request
+        uses: peter-evans/create-pull-request@v7
         with:
-          commit_message: "chore: update repository metadata"
-          file_pattern: "README.md"
+          commit-message: "chore: update repository metadata"
+          title: "chore: update repository metadata"
+          body: |
+            Automated README refresh generated from `repos.json` and GitHub API metadata.
+          branch: "chore/update-readme"
+          delete-branch: true
+          add-paths: "README.md"
