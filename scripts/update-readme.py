@@ -158,7 +158,7 @@ def build_readme(items):
         "- [Awesome Indonesia Legacy](https://github.com/IndopenSource/awesome-indonesia-legacy)",
         "- [Awesome Indonesia Revival](https://github.com/IndopenSource/awesome-indonesia-revival)",
         "",
-        "Daftar ini juga tersedia dalam versi UI di [tokengratis.id/opensource](https://www.tokengratis.id/opensource) dan [indopensource.org/projects](https://indopensource.org/projects/).",
+        "Daftar ini juga tersedia dalam versi UI di [tokengratis.id/opensource](https://www.tokengratis.id/opensource) melalui repo [raymondchins/tokengratis-id](https://github.com/raymondchins/tokengratis-id), serta di [indopensource.org/projects](https://indopensource.org/projects/).",
         "",
         "## Urutan & Sumber Data",
         "",
