@@ -26,6 +26,8 @@ Kumpulan proyek open source Indonesia yang aktif dan bisa langsung dijadikan ref
 
 Awesome List ini berisi koleksi proyek open source Indonesia yang dapat diakses publik dan tetap dirawat oleh komunitas.
 
+Daftar ini juga tersedia dalam versi UI di [tokengratis.id/opensource](https://www.tokengratis.id/opensource) dan [indopensource.org/projects](https://indopensource.org/projects/).
+
 ## Urutan & Sumber Data
 
 Urutan proyek berdasarkan jumlah **GitHub stars** (descending).
