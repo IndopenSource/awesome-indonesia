@@ -2,6 +2,14 @@
 
 Repo ini mengikuti gaya Awesome List.
 
+## Klasifikasi submit
+
+Gunakan repo ini untuk proyek open source Indonesia yang masih fresh dan aktif pada 2026.
+
+- Submit proyek app, library, tool, atau installer yang aktif ke repo ini.
+- Submit resource non-app, direktori, materi belajar, atau daftar komunitas ke [Awesome Indonesia Legacy](https://github.com/IndopenSource/awesome-indonesia-legacy).
+- Submit proyek lama, kurang aktif, atau kandidat yang potensial direvival ke [Awesome Indonesia Revival](https://github.com/IndopenSource/awesome-indonesia-revival).
+
 ## Cara menambah proyek
 
 1. Tambahkan nama repo ke `repos.json` dengan format `owner/repo`.
@@ -11,7 +19,7 @@ Repo ini mengikuti gaya Awesome List.
 
 ## Standar kontribusi
 
-- Tambahkan proyek open source yang relevan dengan ekosistem Indonesia.
+- Tambahkan proyek open source yang relevan dengan ekosistem Indonesia dan masih fresh/aktif pada 2026.
 - Pastikan repo publik dan bisa diakses dari GitHub.
 - Pastikan repo bukan duplikasi dari entri yang sudah ada.
 - Jangan edit tabel README secara manual jika metadata bisa dihasilkan dari GitHub API.

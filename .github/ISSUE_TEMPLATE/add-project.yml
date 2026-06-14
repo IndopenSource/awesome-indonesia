@@ -1,7 +1,15 @@
-name: Tambah proyek
-description: Usulkan proyek open source Indonesia untuk masuk ke Awesome Indonesia.
+name: Tambah proyek fresh
+description: Usulkan proyek open source Indonesia yang masih fresh dan aktif pada 2026.
 title: "Tambah proyek: owner/repo"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Gunakan repo ini untuk proyek app, library, tool, atau installer yang masih fresh dan aktif pada 2026.
+
+        Untuk resource non-app, direktori, materi belajar, atau daftar komunitas, submit ke https://github.com/IndopenSource/awesome-indonesia-legacy.
+
+        Untuk proyek lama, kurang aktif, atau kandidat revival, submit ke https://github.com/IndopenSource/awesome-indonesia-revival.
   - type: input
     id: repository
     attributes:
@@ -14,6 +22,6 @@ body:
     id: reason
     attributes:
       label: Alasan
-      description: Jelaskan kenapa proyek ini relevan untuk ekosistem open source Indonesia.
+      description: Jelaskan kenapa proyek ini relevan, masih fresh/aktif pada 2026, dan cocok masuk Awesome Indonesia utama.
     validations:
       required: true
