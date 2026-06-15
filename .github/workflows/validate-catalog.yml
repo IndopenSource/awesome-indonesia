@@ -3,6 +3,7 @@ name: Validate Catalog
 on:
   pull_request:
     paths:
+      - "README.md"
       - "repos.json"
       - "scripts/update-readme.py"
       - "scripts/validate-catalog.py"
@@ -31,9 +32,25 @@ jobs:
           node-version: 22
       - name: Validate repos.json
         run: python scripts/validate-catalog.py
+      - name: Detect README changes
+        id: changed-files
+        run: |
+          if [ "${{ github.event_name }}" != "pull_request" ]; then
+            echo "readme=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+          if git diff --name-only "origin/${{ github.base_ref }}...HEAD" | grep -qx "README.md"; then
+            echo "readme=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "readme=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Regenerate README
         run: python scripts/update-readme.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Ensure README is up to date
+        if: steps.changed-files.outputs.readme == 'true'
+        run: git diff --exit-code README.md
       - name: Run markdownlint
         run: npx --yes markdownlint-cli --config .markdownlint.json README.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md
