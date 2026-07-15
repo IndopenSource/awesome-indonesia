@@ -39,9 +39,14 @@ def clean(value, fallback="N/A"):
 
 
 def format_description(value):
-    text = clean(value)
+    text = clean(value).strip()
     text = re.sub(r"\bhttps?://[^\s\])>]+", lambda m: f"<{m.group(0)}>", text)
     text = re.sub(r"\bwww\.[^\s\])>]+\.[^\s\])>]+", lambda m: f"<https://{m.group(0)}>", text)
+    text = re.sub(
+        r"(?<![<\w.-])[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}(?![\w.-])",
+        lambda m: f"<{m.group(0)}>",
+        text,
+    )
     return text.replace("|", "\\|")
 
 

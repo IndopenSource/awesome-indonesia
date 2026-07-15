@@ -7,11 +7,17 @@ on:
       - "**/*.md"
       - ".github/workflows/*.yml"
       - ".markdownlint.json"
+      - "repos.json"
+      - "scripts/update-readme.py"
+      - "scripts/validate-catalog.py"
   pull_request:
     paths:
       - "**/*.md"
       - ".github/workflows/*.yml"
       - ".markdownlint.json"
+      - "repos.json"
+      - "scripts/update-readme.py"
+      - "scripts/validate-catalog.py"
 
 jobs:
   lint:
