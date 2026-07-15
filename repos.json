@@ -52,8 +52,8 @@
   "rifqiakrm/code-island",
   "rizukirr/apic",
   "rizukirr/hyprsimple",
-  "rizukirr/libmuslim",
-  "rizukirr/muslimtify",
+  "muslimtify-org/libmuslim",
+  "muslimtify-org/muslimtify",
   "rizukirr/no-vibe",
   "rizukirr/numc",
   "rizukirr/vibekit",
@@ -68,5 +68,11 @@
   "mmenghancurkan/dynaQRIS",
   "njinlabs/njinattend-backend",
   "sipamungkas/subtrack",
-  "wauputr4/agent-proxmox"
+  "wauputr4/agent-proxmox",
+  "rahmanef63/framepilot",
+  "andriawan/AndKasir",
+  "danpros/htmly",
+  "faisalman/ua-parser-js",
+  "laravolt/avatar",
+  "laravolt/indonesia"
 ]
