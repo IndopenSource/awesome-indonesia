@@ -8,6 +8,7 @@ on:
       - "scripts/update-readme.py"
       - "scripts/validate-catalog.py"
       - ".github/workflows/validate-catalog.yml"
+      - ".github/workflows/update-readme.yml"
   push:
     branches: [ main ]
     paths:
@@ -15,6 +16,7 @@ on:
       - "scripts/update-readme.py"
       - "scripts/validate-catalog.py"
       - ".github/workflows/validate-catalog.yml"
+      - ".github/workflows/update-readme.yml"
 
 permissions:
   contents: read
