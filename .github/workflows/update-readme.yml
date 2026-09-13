@@ -30,7 +30,7 @@ jobs:
       - name: Create README update pull request
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.README_UPDATE_TOKEN || github.token }}
+          token: ${{ github.token }}
           commit-message: "chore: update repository metadata"
           title: "chore: update repository metadata"
           body: |
