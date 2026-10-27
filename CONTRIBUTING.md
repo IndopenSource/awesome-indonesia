@@ -12,7 +12,7 @@ Gunakan repo ini untuk proyek open source Indonesia yang masih fresh dan aktif p
 
 ## Cara menambah proyek
 
-1. Tambahkan nama repo ke `repos.json` dengan format `owner/repo`.
+1. Tambahkan nama repo ke `repos.json` dengan format `owner/repo`, disisipkan sesuai urutan abjad (huruf besar dan kecil dianggap sama). Jangan menambah di baris paling akhir kecuali memang urutannya di sana.
 2. Jalankan `make validate` untuk memastikan format list benar.
 3. Buat pull request dengan ringkasan proyek yang ditambahkan.
 4. README akan diperbarui lewat PR metadata otomatis setelah PR digabungkan ke `main`.
@@ -56,15 +56,17 @@ melakukan approve, merge, atau push langsung ke `main`.
 
 ```json
 [
-  "owner/repo",
-  "another-owner/another-repo"
+  "another-owner/another-repo",
+  "owner/repo"
 ]
 ```
+
+Daftar diurutkan berdasarkan abjad. `make validate` gagal jika urutannya salah dan menyebutkan entri mana yang harus dipindah.
 
 ## Rekomendasi update
 
 - Gunakan nama owner dan repo yang valid.
 - Jika metadata di README terlihat kurang lengkap, update metadata di repo asalnya terlebih dahulu.
-- README diurutkan otomatis berdasarkan jumlah stars terbanyak.
+- Indeks proyek di README diurutkan berdasarkan abjad, sedangkan tabel daftar proyek diurutkan otomatis berdasarkan jumlah stars terbanyak.
 - Latest release mengikuti data GitHub Releases. Jika repo belum punya release, kolom akan berisi `N/A`.
 - Workflow `Update README` berjalan harian, berjalan setelah perubahan `repos.json` di `main`, dan bisa dipicu manual dari tab Actions.

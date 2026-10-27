@@ -9,6 +9,7 @@
 - [ ] Repo ini bukan resource non-app, direktori, materi belajar, atau daftar komunitas. Jika iya, submit ke https://github.com/IndopenSource/awesome-indonesia-legacy.
 - [ ] Repo ini bukan proyek lama/kurang aktif/kandidat revival. Jika iya, submit ke https://github.com/IndopenSource/awesome-indonesia-revival.
 - [ ] Saya sudah memastikan repo belum ada di `repos.json`.
+- [ ] Saya menyisipkan repo di `repos.json` sesuai urutan abjad.
 - [ ] Saya sudah menjalankan `make validate` atau validator yang setara.
 
 ## Repo yang ditambahkan

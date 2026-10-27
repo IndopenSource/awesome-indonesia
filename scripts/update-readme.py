@@ -130,6 +130,22 @@ def project_anchor(full_name):
     return full_name.lower().replace("/", "").replace(".", "").replace("_", "").replace(" ", "-")
 
 
+def index_rows(items):
+    """Alphabetical index, one heading per first letter."""
+    rows = []
+    letter = None
+    for item in sorted(items, key=lambda item: item["full_name"].lower()):
+        first = item["full_name"][0].upper()
+        if first != letter:
+            if letter is not None:
+                rows.append("")
+            rows.extend([f"### {first}", ""])
+            letter = first
+        rows.append(f"- [{item['full_name']}](#{project_anchor(item['full_name'])})")
+    rows.append("")
+    return rows
+
+
 def build_readme(items):
     rows = [
         "# Awesome Indonesia",
@@ -171,13 +187,12 @@ def build_readme(items):
         "",
         "## Urutan & Sumber Data",
         "",
-        "Urutan proyek berdasarkan jumlah **GitHub stars** (descending).",
+        "Indeks proyek diurutkan berdasarkan abjad. Tabel daftar proyek diurutkan berdasarkan jumlah **GitHub stars** (descending).",
         f"Data terakhir disinkronkan: **{date.today().isoformat()}**.",
         "",
         "## Indeks Proyek",
         "",
-        *[f"- [{item['full_name']}](#{project_anchor(item['full_name'])})" for item in items],
-        "",
+        *index_rows(items),
         "## Daftar Proyek",
         "",
         "| No | Project | Pembuat | Bahasa | Stars | Forks | Issue | Lisensi | Terakhir Update | Tags | Latest Release |",
