@@ -72,7 +72,10 @@ def latest_release_metadata(full_name):
 
 
 def repo_metadata(full_name):
-    data = request_json(f"https://api.github.com/repos/{full_name}")
+    data = request_json(f"https://api.github.com/repos/{full_name}", allow_not_found=True)
+    if data is None:
+        print(f"Skipping {full_name}: GitHub answers 404 (deleted, renamed away, or private).")
+        return None
     license_data = data.get("license") or {}
     release_data = latest_release_metadata(data["full_name"])
     return {
@@ -214,7 +217,7 @@ def build_readme(items):
 
 def main():
     repos = json.loads(REPOS_FILE.read_text(encoding="utf-8"))
-    items = [repo_metadata(repo) for repo in repos]
+    items = [item for item in (repo_metadata(repo) for repo in repos) if item]
     items.sort(key=lambda item: (item["stars"], item["watchers"], item["forks"]), reverse=True)
     README_FILE.write_text(build_readme(items) + "\n", encoding="utf-8")
 
