@@ -25,6 +25,14 @@ def main():
             raise SystemExit(f"Duplicate repository entry: {repo}")
         seen.add(normalized)
 
+    # Alphabetical order keeps each addition in its own spot, so two PRs
+    # rarely touch the same line of repos.json.
+    for previous, repo in zip(repos, repos[1:]):
+        if repo.lower() < previous.lower():
+            raise SystemExit(
+                f"repos.json must be in alphabetical order: put {repo} before {previous}."
+            )
+
     print(f"Validated {len(repos)} repositories.")
 
 

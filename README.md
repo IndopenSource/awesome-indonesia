@@ -37,91 +37,147 @@ Daftar ini juga tersedia dalam versi UI di [tokengratis.id/opensource](https://w
 
 ## Urutan & Sumber Data
 
-Urutan proyek berdasarkan jumlah **GitHub stars** (descending).
+Indeks proyek diurutkan berdasarkan abjad. Tabel daftar proyek diurutkan berdasarkan jumlah **GitHub stars** (descending).
 Data terakhir disinkronkan: **2026-10-27**.
 
 ## Indeks Proyek
 
-- [faisalman/ua-parser-js](#faisalmanua-parser-js)
-- [miqdadbadjuber/anti-slop](#miqdadbadjuberanti-slop)
-- [laravolt/avatar](#laravoltavatar)
-- [danpros/htmly](#danproshtmly)
-- [OpenSID/OpenSID](#opensidopensid)
-- [jipraks/yt-short-clipper](#jipraksyt-short-clipper)
-- [laravolt/indonesia](#laravoltindonesia)
-- [ahmadrosid/nakama](#ahmadrosidnakama)
-- [rayasabari/joko-ui](#rayasabarijoko-ui)
-- [fajarhide/omni](#fajarhideomni)
-- [Drenzzz/ADBKit](#drenzzzadbkit)
-- [gnoviawan/termul](#gnoviawantermul)
-- [codecoradev/uteke](#codecoradevuteke)
-- [hadziqmtqn/erd-builder-pro](#hadziqmtqnerd-builder-pro)
-- [mallexibra-dev/clipforge](#mallexibra-devclipforge)
-- [IlhamriSKY/TEDI](#ilhamriskytedi)
-- [mydisha/keirouter](#mydishakeirouter)
-- [jipraks/kasirgratisan](#jiprakskasirgratisan)
-- [hendisantika/Online-banking-angular-springboot-mysql](#hendisantikaonline-banking-angular-springboot-mysql)
-- [IlhamriSKY/PDDIKTI-kemdikbud-API](#ilhamriskypddikti-kemdikbud-api)
-- [rahmanef63/mso](#rahmanef63mso)
-- [depapp/IndoGitHubers](#depappindogithubers)
-- [ddtamn/svelte-audio-ui](#ddtamnsvelte-audio-ui)
-- [njinlabs/njinattend-backend](#njinlabsnjinattend-backend)
-- [wauputr4/bansos](#wauputr4bansos)
-- [RudyCity/superagent](#rudycitysuperagent)
-- [maziyank/nats](#maziyanknats)
-- [firewalker06/tycho](#firewalker06tycho)
-- [andriawan/AndKasir](#andriawanandkasir)
-- [ardli-firman/sha-print](#ardli-firmansha-print)
-- [mmenghancurkan/dynaQRIS](#mmenghancurkandynaqris)
-- [giosakti/duragent](#giosaktiduragent)
+### A
+
 - [abilfida/OmniDrive](#abilfidaomnidrive)
-- [rizukirr/no-vibe](#rizukirrno-vibe)
+- [achmdfzn/hippocrates](#achmdfznhippocrates)
+- [AdityaZxxx/sheltermark](#adityazxxxsheltermark)
+- [ahmadghaisanfad2/absen-kelas](#ahmadghaisanfad2absen-kelas)
+- [ahmadrosid/nakama](#ahmadrosidnakama)
 - [akbxr/dns](#akbxrdns)
 - [ammar-rasyidi/mandum-rimba](#ammar-rasyidimandum-rimba)
-- [fadhilbarkah/diskus](#fadhilbarkahdiskus)
-- [rahmanef63/open-silong](#rahmanef63open-silong)
-- [rizukirr/hyprsimple](#rizukirrhyprsimple)
-- [pendig/rute-bayar](#pendigrute-bayar)
-- [galpratama/agent-cli](#galpratamaagent-cli)
-- [raymondchins/tokengratis-id](#raymondchinstokengratis-id)
-- [RafiulM/warungos](#rafiulmwarungos)
-- [rizukirr/vibekit](#rizukirrvibekit)
-- [rayasabari/yntk-ts](#rayasabariyntk-ts)
-- [rahmanef63/control-room](#rahmanef63control-room)
-- [muhfauziazhar/nusakit-api](#muhfauziazharnusakit-api)
-- [muslimtify-org/muslimtify](#muslimtify-orgmuslimtify)
-- [MuhammadHasbiAshshiddieqy/OpenClawn](#muhammadhasbiashshiddieqyopenclawn)
-- [rahmanef63/si-coder-agent](#rahmanef63si-coder-agent)
-- [rizukirr/numc](#rizukirrnumc)
-- [ahmadghaisanfad2/absen-kelas](#ahmadghaisanfad2absen-kelas)
-- [semutdev/goigniter](#semutdevgoigniter)
-- [hellodit/OpenMasjid](#helloditopenmasjid)
-- [NAEOS-foundation/naeos](#naeos-foundationnaeos)
-- [fajarhide/heimsense](#fajarhideheimsense)
-- [xpajonx/openempiric](#xpajonxopenempiric)
-- [rifqiakrm/code-island](#rifqiakrmcode-island)
-- [RRNDev/app-permission-analyzer](#rrndevapp-permission-analyzer)
-- [rizukirr/apic](#rizukirrapic)
-- [wauputr4/agent-proxmox](#wauputr4agent-proxmox)
 - [anandazp/tempa-ui](#anandazptempa-ui)
-- [codecoradev/trapfall](#codecoradevtrapfall)
-- [sipamungkas/subtrack](#sipamungkassubtrack)
-- [rahmanef63/framepilot](#rahmanef63framepilot)
-- [RamaAditya49/ai-agentic](#ramaaditya49ai-agentic)
+- [andriawan/AndKasir](#andriawanandkasir)
 - [Aofsnorth/Artidor](#aofsnorthartidor)
-- [achmdfzn/hippocrates](#achmdfznhippocrates)
-- [muslimtify-org/libmuslim](#muslimtify-orglibmuslim)
-- [Kusdianta/disk-space-detective](#kusdiantadisk-space-detective)
-- [faisalaffan/ragi-instant](#faisalaffanragi-instant)
-- [wauputr4/skill-bansos](#wauputr4skill-bansos)
-- [wauputr4/hermex](#wauputr4hermex)
-- [jutionck/tahlil-tracker](#jutioncktahlil-tracker)
-- [AdityaZxxx/sheltermark](#adityazxxxsheltermark)
-- [bimoalfarrabi/pantau-bbm](#bimoalfarrabipantau-bbm)
-- [dayartcrew-web/masday-workflow-rust](#dayartcrew-webmasday-workflow-rust)
+- [ardli-firman/sha-print](#ardli-firmansha-print)
 - [azmifauzan/suaranetijen](#azmifauzansuaranetijen)
-- [NzxCode/Hospital-Ai-Sales-Agent](#nzxcodehospital-ai-sales-agent)
+
+### B
+
+- [bimoalfarrabi/pantau-bbm](#bimoalfarrabipantau-bbm)
+
+### C
+
 - [caturseptian/laravel-indonesia-territory](#caturseptianlaravel-indonesia-territory)
+- [codecoradev/trapfall](#codecoradevtrapfall)
+- [codecoradev/uteke](#codecoradevuteke)
+
+### D
+
+- [danpros/htmly](#danproshtmly)
+- [dayartcrew-web/masday-workflow-rust](#dayartcrew-webmasday-workflow-rust)
+- [ddtamn/svelte-audio-ui](#ddtamnsvelte-audio-ui)
+- [depapp/IndoGitHubers](#depappindogithubers)
+- [Drenzzz/ADBKit](#drenzzzadbkit)
+
+### F
+
+- [fadhilbarkah/diskus](#fadhilbarkahdiskus)
+- [faisalaffan/ragi-instant](#faisalaffanragi-instant)
+- [faisalman/ua-parser-js](#faisalmanua-parser-js)
+- [fajarhide/heimsense](#fajarhideheimsense)
+- [fajarhide/omni](#fajarhideomni)
+- [firewalker06/tycho](#firewalker06tycho)
+
+### G
+
+- [galpratama/agent-cli](#galpratamaagent-cli)
+- [giosakti/duragent](#giosaktiduragent)
+- [gnoviawan/termul](#gnoviawantermul)
+
+### H
+
+- [hadziqmtqn/erd-builder-pro](#hadziqmtqnerd-builder-pro)
+- [hellodit/OpenMasjid](#helloditopenmasjid)
+- [hendisantika/Online-banking-angular-springboot-mysql](#hendisantikaonline-banking-angular-springboot-mysql)
+
+### I
+
+- [IlhamriSKY/PDDIKTI-kemdikbud-API](#ilhamriskypddikti-kemdikbud-api)
+- [IlhamriSKY/TEDI](#ilhamriskytedi)
+
+### J
+
+- [jipraks/kasirgratisan](#jiprakskasirgratisan)
+- [jipraks/yt-short-clipper](#jipraksyt-short-clipper)
+- [jutionck/tahlil-tracker](#jutioncktahlil-tracker)
+
+### K
+
+- [Kusdianta/disk-space-detective](#kusdiantadisk-space-detective)
+
+### L
+
+- [laravolt/avatar](#laravoltavatar)
+- [laravolt/indonesia](#laravoltindonesia)
+
+### M
+
+- [mallexibra-dev/clipforge](#mallexibra-devclipforge)
+- [maziyank/nats](#maziyanknats)
+- [miqdadbadjuber/anti-slop](#miqdadbadjuberanti-slop)
+- [mmenghancurkan/dynaQRIS](#mmenghancurkandynaqris)
+- [MuhammadHasbiAshshiddieqy/OpenClawn](#muhammadhasbiashshiddieqyopenclawn)
+- [muhfauziazhar/nusakit-api](#muhfauziazharnusakit-api)
+- [muslimtify-org/libmuslim](#muslimtify-orglibmuslim)
+- [muslimtify-org/muslimtify](#muslimtify-orgmuslimtify)
+- [mydisha/keirouter](#mydishakeirouter)
+
+### N
+
+- [NAEOS-foundation/naeos](#naeos-foundationnaeos)
+- [njinlabs/njinattend-backend](#njinlabsnjinattend-backend)
+- [NzxCode/Hospital-Ai-Sales-Agent](#nzxcodehospital-ai-sales-agent)
+
+### O
+
+- [OpenSID/OpenSID](#opensidopensid)
+
+### P
+
+- [pendig/rute-bayar](#pendigrute-bayar)
+
+### R
+
+- [RafiulM/warungos](#rafiulmwarungos)
+- [rahmanef63/control-room](#rahmanef63control-room)
+- [rahmanef63/framepilot](#rahmanef63framepilot)
+- [rahmanef63/mso](#rahmanef63mso)
+- [rahmanef63/open-silong](#rahmanef63open-silong)
+- [rahmanef63/si-coder-agent](#rahmanef63si-coder-agent)
+- [RamaAditya49/ai-agentic](#ramaaditya49ai-agentic)
+- [rayasabari/joko-ui](#rayasabarijoko-ui)
+- [rayasabari/yntk-ts](#rayasabariyntk-ts)
+- [raymondchins/tokengratis-id](#raymondchinstokengratis-id)
+- [rifqiakrm/code-island](#rifqiakrmcode-island)
+- [rizukirr/apic](#rizukirrapic)
+- [rizukirr/hyprsimple](#rizukirrhyprsimple)
+- [rizukirr/no-vibe](#rizukirrno-vibe)
+- [rizukirr/numc](#rizukirrnumc)
+- [rizukirr/vibekit](#rizukirrvibekit)
+- [RRNDev/app-permission-analyzer](#rrndevapp-permission-analyzer)
+- [RudyCity/superagent](#rudycitysuperagent)
+
+### S
+
+- [semutdev/goigniter](#semutdevgoigniter)
+- [sipamungkas/subtrack](#sipamungkassubtrack)
+
+### W
+
+- [wauputr4/agent-proxmox](#wauputr4agent-proxmox)
+- [wauputr4/bansos](#wauputr4bansos)
+- [wauputr4/hermex](#wauputr4hermex)
+- [wauputr4/skill-bansos](#wauputr4skill-bansos)
+
+### X
+
+- [xpajonx/openempiric](#xpajonxopenempiric)
 
 ## Daftar Proyek
 
@@ -138,7 +194,7 @@ Data terakhir disinkronkan: **2026-10-27**.
 | 9 | <a id="rayasabarijoko-ui"></a>[joko-ui](https://github.com/rayasabari/joko-ui)<br>Free Open Source Tailwind CSS Component for Sat-set Developers with Zero Configuration, Installation, and Setup | [@rayasabari](https://github.com/rayasabari) | TypeScript | 419 | 28 | 10 | MIT | 2026-06-06 | `css` `ui` `ui-components` `ui-design` `ui-framework` `uikit` | [v0.8.0](https://github.com/rayasabari/joko-ui/releases/tag/v0.8.0)<br>2026-06-06 |
 | 10 | <a id="fajarhideomni"></a>[omni](https://github.com/fajarhide/omni)<br>Your agent pays twice for output it has already seen. OMNI returns a handle instead: 97.2% off a file read twice. Nothing deleted, nothing invented. | [@fajarhide](https://github.com/fajarhide) | Rust | 369 | 35 | 25 | Apache-2.0 | 2026-10-23 | `agentic-ai` `ai-agents` `antigravity` `claude-code` `cli` `context-compression` `+14` | [v0.7.12](https://github.com/fajarhide/omni/releases/tag/v0.7.12)<br>2026-10-22 |
 | 11 | <a id="drenzzzadbkit"></a>[ADBKit](https://github.com/Drenzzz/ADBKit)<br>A simple, modern GUI for ADB, Fastboot and Scrcpy | [@Drenzzz](https://github.com/Drenzzz) | TypeScript | 368 | 45 | 3 | MIT | 2026-10-25 | `adb` `fastboot` `go` `react` `scrcpy` `wails` `+1` | [v2.0.0](https://github.com/Drenzzz/ADBKit/releases/tag/v2.0.0)<br>2026-09-11 |
-| 12 | <a id="gnoviawantermul"></a>[termul](https://github.com/gnoviawan/termul)<br>Termul is Terminal Ultimate Manager a cross-platform desktop terminal manager built with Tauri and React. Organize terminals by workspace with persistent sessions, multiple shell, split panes, embedded browser tabs, and a built-in code & markdown editor. | [@gnoviawan](https://github.com/gnoviawan) | TypeScript | 288 | 58 | 48 | MIT | 2026-10-27 | `cross-platform` `desktop-app` `developer-tools` `open-source` `productivity` `react` `+7` | [v0.4.52](https://github.com/gnoviawan/termul/releases/tag/v0.4.52)<br>2026-10-19 |
+| 12 | <a id="gnoviawantermul"></a>[termul](https://github.com/gnoviawan/termul)<br>Termul is Terminal Ultimate Manager a cross-platform desktop terminal manager built with Tauri and React. Organize terminals by workspace with persistent sessions, multiple shell, split panes, embedded browser tabs, and a built-in code & markdown editor. | [@gnoviawan](https://github.com/gnoviawan) | TypeScript | 288 | 58 | 50 | MIT | 2026-10-27 | `cross-platform` `desktop-app` `developer-tools` `open-source` `productivity` `react` `+7` | [v0.4.52](https://github.com/gnoviawan/termul/releases/tag/v0.4.52)<br>2026-10-19 |
 | 13 | <a id="codecoradevuteke"></a>[uteke](https://github.com/codecoradev/uteke)<br>🧠 The Brain for Your AI — Local-first memory engine for AI agents. Store, recall, and search memories with semantic embeddings. Single Rust binary, zero config, fully offline. | [@codecoradev](https://github.com/codecoradev) | Rust | 277 | 31 | 28 | Apache-2.0 | 2026-10-22 | `agent-memory` `ai` `ai-agents` `cli` `cli-tool` `embeddings` `+14` | [v0.21.1](https://github.com/codecoradev/uteke/releases/tag/v0.21.1)<br>2026-10-15 |
 | 14 | <a id="hadziqmtqnerd-builder-pro"></a>[erd-builder-pro](https://github.com/hadziqmtqn/erd-builder-pro)<br>ERD Builder Pro is a database design and documentation tool for developers. Build ERDs, flowcharts, notes, and drawings — all in one workspace | [@hadziqmtqn](https://github.com/hadziqmtqn) | TypeScript | 207 | 41 | 12 | NOASSERTION | 2026-10-27 | `coding` `data-engineering` `data-visualization` `database` `developer-tools` `devtools` `+5` | [v3.4.6](https://github.com/hadziqmtqn/erd-builder-pro/releases/tag/v3.4.6)<br>2026-09-03 |
 | 15 | <a id="mallexibra-devclipforge"></a>[clipforge](https://github.com/mallexibra-dev/clipforge)<br>N/A | [@mallexibra-dev](https://github.com/mallexibra-dev) | Python | 183 | 44 | 0 | MIT | 2026-10-04 | N/A | N/A |
@@ -192,21 +248,21 @@ Data terakhir disinkronkan: **2026-10-27**.
 | 63 | <a id="codecoradevtrapfall"></a>[trapfall](https://github.com/codecoradev/trapfall)<br>TrapFall — Lightweight self-hosted error capture engine. Sentry-compatible, Rust + SvelteKit 5. | [@codecoradev](https://github.com/codecoradev) | Rust | 8 | 0 | 25 | Apache-2.0 | 2026-10-26 | `axum` `blake3` `crash-reporting` `error-capture` `error-tracking` `flutter` `+7` | [v0.3.0](https://github.com/codecoradev/trapfall/releases/tag/v0.3.0)<br>2026-09-03 |
 | 64 | <a id="sipamungkassubtrack"></a>[subtrack](https://github.com/sipamungkas/subtrack)<br>N/A | [@sipamungkas](https://github.com/sipamungkas) | TypeScript | 8 | 0 | 1 | MIT | 2026-03-29 | N/A | N/A |
 | 65 | <a id="rahmanef63framepilot"></a>[framepilot](https://github.com/rahmanef63/framepilot)<br>Browser-based 3D camera previsualization and shot planner — design scenes, frames, angles, lenses and moves, then export platform-tuned prompts for AI video models. Next.js 16 · React 19 · Three.js · Convex. | [@rahmanef63](https://github.com/rahmanef63) | TypeScript | 7 | 2 | 0 | MIT | 2026-09-09 | `ai-video` `camera` `cinematography` `convex` `nextjs` `previsualization` `+7` | [v0.1.0](https://github.com/rahmanef63/framepilot/releases/tag/v0.1.0)<br>2026-08-02 |
-| 66 | <a id="ramaaditya49ai-agentic"></a>[ai-agentic](https://github.com/RamaAditya49/ai-agentic)<br>N/A | [@RamaAditya49](https://github.com/RamaAditya49) | N/A | 7 | 0 | 0 | N/A | 2026-06-09 | N/A | N/A |
-| 67 | <a id="aofsnorthartidor"></a>[Artidor](https://github.com/Aofsnorth/Artidor)<br>N/A | [@Aofsnorth](https://github.com/Aofsnorth) | TypeScript | 7 | 0 | 2 | NOASSERTION | 2026-10-24 | N/A | N/A |
+| 66 | <a id="aofsnorthartidor"></a>[Artidor](https://github.com/Aofsnorth/Artidor)<br>N/A | [@Aofsnorth](https://github.com/Aofsnorth) | TypeScript | 7 | 0 | 2 | NOASSERTION | 2026-10-24 | N/A | N/A |
+| 67 | <a id="ramaaditya49ai-agentic"></a>[ai-agentic](https://github.com/RamaAditya49/ai-agentic)<br>N/A | [@RamaAditya49](https://github.com/RamaAditya49) | N/A | 7 | 0 | 0 | N/A | 2026-06-09 | N/A | N/A |
 | 68 | <a id="achmdfznhippocrates"></a>[hippocrates](https://github.com/achmdfzn/hippocrates)<br>Next.js security middleware with Redis-backed threat scoring, honeypot decoy routing, and Python ML engine for advanced detection. | [@achmdfzn](https://github.com/achmdfzn) | TypeScript | 6 | 0 | 1 | MIT | 2026-06-25 | `ai-security` `api-security` `bot-detection` `edge-computing` `honeypot` `middleware` `+6` | [v1.8.1](https://github.com/achmdfzn/hippocrates/releases/tag/v1.8.1)<br>2026-06-14 |
 | 69 | <a id="muslimtify-orglibmuslim"></a>[libmuslim](https://github.com/muslimtify-org/libmuslim)<br>Collection of islamic tools and utilities implemented in stb-style header only library | [@muslimtify-org](https://github.com/muslimtify-org) | C | 5 | 1 | 0 | MIT | 2026-10-26 | N/A | [2026.09.06](https://github.com/muslimtify-org/libmuslim/releases/tag/2026.09.06)<br>2026-09-06 |
-| 70 | <a id="kusdiantadisk-space-detective"></a>[disk-space-detective](https://github.com/Kusdianta/disk-space-detective)<br>Agent Skill: find what is silently filling a disk, root-cause it by measurement, and install a permanent fix. Windows, macOS, Linux. | [@Kusdianta](https://github.com/Kusdianta) | PowerShell | 4 | 0 | 0 | MIT | 2026-10-03 | N/A | [v1.0.1](https://github.com/Kusdianta/disk-space-detective/releases/tag/v1.0.1)<br>2026-07-25 |
-| 71 | <a id="faisalaffanragi-instant"></a>[ragi-instant](https://github.com/faisalaffan/ragi-instant)<br>RAG System that implement simple and fast. like ragi to make indonesian bread | [@faisalaffan](https://github.com/faisalaffan) | TypeScript | 4 | 0 | 9 | MIT | 2026-08-17 | `document-processing` `embeddings` `hybrid-search` `indonesian` `llm` `pgvector` `+8` | N/A |
+| 70 | <a id="faisalaffanragi-instant"></a>[ragi-instant](https://github.com/faisalaffan/ragi-instant)<br>RAG System that implement simple and fast. like ragi to make indonesian bread | [@faisalaffan](https://github.com/faisalaffan) | TypeScript | 4 | 0 | 9 | MIT | 2026-08-17 | `document-processing` `embeddings` `hybrid-search` `indonesian` `llm` `pgvector` `+8` | N/A |
+| 71 | <a id="kusdiantadisk-space-detective"></a>[disk-space-detective](https://github.com/Kusdianta/disk-space-detective)<br>Agent Skill: find what is silently filling a disk, root-cause it by measurement, and install a permanent fix. Windows, macOS, Linux. | [@Kusdianta](https://github.com/Kusdianta) | PowerShell | 4 | 0 | 0 | MIT | 2026-10-03 | N/A | [v1.0.1](https://github.com/Kusdianta/disk-space-detective/releases/tag/v1.0.1)<br>2026-07-25 |
 | 72 | <a id="wauputr4skill-bansos"></a>[skill-bansos](https://github.com/wauputr4/skill-bansos)<br>Open Agent Skills for adding bansos.dev listings and developing the bansos.dev SvelteKit site. | [@wauputr4](https://github.com/wauputr4) | N/A | 4 | 0 | 0 | MIT | 2026-07-22 | `agent-skills` `ai-agent` `bansos-dev` `codex` `open-agent-skills` `openai` `+4` | [v0.2.0](https://github.com/wauputr4/skill-bansos/releases/tag/v0.2.0)<br>2026-07-22 |
 | 73 | <a id="wauputr4hermex"></a>[hermex](https://github.com/wauputr4/hermex)<br>Open-source AI personality analysis based on birth place, date, and time for reflective self-discovery. | [@wauputr4](https://github.com/wauputr4) | Python | 3 | 0 | 0 | MIT | 2026-08-03 | N/A | [v1.0.0](https://github.com/wauputr4/hermex/releases/tag/v1.0.0)<br>2026-08-03 |
 | 74 | <a id="jutioncktahlil-tracker"></a>[tahlil-tracker](https://github.com/jutionck/tahlil-tracker)<br>Aplikasi untuk menghitung hari selamatan orang meninggal (tahlilan) dan panduan bacaan Yasin & Tahlil lengkap, serta tata cara pengurusan jenazah. | [@jutionck](https://github.com/jutionck) | TypeScript | 2 | 0 | 0 | MIT | 2026-06-02 | N/A | [v1.2.0](https://github.com/jutionck/tahlil-tracker/releases/tag/v1.2.0)<br>2025-12-12 |
 | 75 | <a id="adityazxxxsheltermark"></a>[sheltermark](https://github.com/AdityaZxxx/sheltermark)<br>A quiet place for your bookmarks. | [@AdityaZxxx](https://github.com/AdityaZxxx) | TypeScript | 1 | 0 | 0 | N/A | 2026-10-20 | `bookmarks` `productivity` | [v1.2.0](https://github.com/AdityaZxxx/sheltermark/releases/tag/v1.2.0)<br>2026-08-25 |
-| 76 | <a id="bimoalfarrabipantau-bbm"></a>[pantau-bbm](https://github.com/bimoalfarrabi/pantau-bbm)<br>Aplikasi web untuk memantau harga BBM Indonesia per wilayah | [@bimoalfarrabi](https://github.com/bimoalfarrabi) | PHP | 1 | 0 | 0 | MIT | 2026-08-09 | N/A | N/A |
-| 77 | <a id="dayartcrew-webmasday-workflow-rust"></a>[masday-workflow-rust](https://github.com/dayartcrew-web/masday-workflow-rust)<br>Rust MVC MCP Server — Unified AI coding agent platform built with Axum, SQLx, and tokio. 90 MCP tools, 4-layer memory, PostgreSQL. | [@dayartcrew-web](https://github.com/dayartcrew-web) | Rust | 1 | 0 | 16 | N/A | 2026-09-14 | N/A | [v0.3.89](https://github.com/dayartcrew-web/masday-workflow-rust/releases/tag/v0.3.89)<br>2026-06-26 |
-| 78 | <a id="azmifauzansuaranetijen"></a>[suaranetijen](https://github.com/azmifauzan/suaranetijen)<br>SuaraNetijen mengindeks opini publik di internet terhadap suatu entitas, mengubah opini relevan menjadi sentimen positif/netral/negatif, lalu mengagregasikannya menjadi Sentimen Netijen dan ranking. | [@azmifauzan](https://github.com/azmifauzan) | PHP | 1 | 0 | 0 | MIT | 2026-10-26 | `indonesia` `inertiajs` `laravel` `open-source` `public-opinion` `sentiment-analysis` `+1` | N/A |
-| 79 | <a id="nzxcodehospital-ai-sales-agent"></a>[Hospital-Ai-Sales-Agent](https://github.com/NzxCode/Hospital-Ai-Sales-Agent)<br>AI-powered sales agent for hospitals that automates lead qualification, patient engagement, appointment scheduling, and follow-up workflows. | [@NzxCode](https://github.com/NzxCode) | Python | 0 | 0 | 0 | N/A | 2026-06-14 | N/A | N/A |
-| 80 | <a id="caturseptianlaravel-indonesia-territory"></a>[laravel-indonesia-territory](https://github.com/caturseptian/laravel-indonesia-territory)<br>Indonesian administrative regions (Kemendagri codes) for Laravel: install once, eject for zero runtime dependency. | [@caturseptian](https://github.com/caturseptian) | PHP | 0 | 0 | 0 | MIT | 2026-10-13 | `administrative-regions` `desa` `indonesia` `indonesia-data` `indonesia-region` `kabupaten` `+12` | [v1.0.1](https://github.com/caturseptian/laravel-indonesia-territory/releases/tag/v1.0.1)<br>2026-10-13 |
+| 76 | <a id="azmifauzansuaranetijen"></a>[suaranetijen](https://github.com/azmifauzan/suaranetijen)<br>SuaraNetijen mengindeks opini publik di internet terhadap suatu entitas, mengubah opini relevan menjadi sentimen positif/netral/negatif, lalu mengagregasikannya menjadi Sentimen Netijen dan ranking. | [@azmifauzan](https://github.com/azmifauzan) | PHP | 1 | 0 | 0 | MIT | 2026-10-26 | `indonesia` `inertiajs` `laravel` `open-source` `public-opinion` `sentiment-analysis` `+1` | N/A |
+| 77 | <a id="bimoalfarrabipantau-bbm"></a>[pantau-bbm](https://github.com/bimoalfarrabi/pantau-bbm)<br>Aplikasi web untuk memantau harga BBM Indonesia per wilayah | [@bimoalfarrabi](https://github.com/bimoalfarrabi) | PHP | 1 | 0 | 0 | MIT | 2026-08-09 | N/A | N/A |
+| 78 | <a id="dayartcrew-webmasday-workflow-rust"></a>[masday-workflow-rust](https://github.com/dayartcrew-web/masday-workflow-rust)<br>Rust MVC MCP Server — Unified AI coding agent platform built with Axum, SQLx, and tokio. 90 MCP tools, 4-layer memory, PostgreSQL. | [@dayartcrew-web](https://github.com/dayartcrew-web) | Rust | 1 | 0 | 16 | N/A | 2026-09-14 | N/A | [v0.3.89](https://github.com/dayartcrew-web/masday-workflow-rust/releases/tag/v0.3.89)<br>2026-06-26 |
+| 79 | <a id="caturseptianlaravel-indonesia-territory"></a>[laravel-indonesia-territory](https://github.com/caturseptian/laravel-indonesia-territory)<br>Indonesian administrative regions (Kemendagri codes) for Laravel: install once, eject for zero runtime dependency. | [@caturseptian](https://github.com/caturseptian) | PHP | 0 | 0 | 0 | MIT | 2026-10-13 | `administrative-regions` `desa` `indonesia` `indonesia-data` `indonesia-region` `kabupaten` `+12` | [v1.0.1](https://github.com/caturseptian/laravel-indonesia-territory/releases/tag/v1.0.1)<br>2026-10-13 |
+| 80 | <a id="nzxcodehospital-ai-sales-agent"></a>[Hospital-Ai-Sales-Agent](https://github.com/NzxCode/Hospital-Ai-Sales-Agent)<br>AI-powered sales agent for hospitals that automates lead qualification, patient engagement, appointment scheduling, and follow-up workflows. | [@NzxCode](https://github.com/NzxCode) | Python | 0 | 0 | 0 | N/A | 2026-06-14 | N/A | N/A |
 
 ## Cara Berkontribusi
 
